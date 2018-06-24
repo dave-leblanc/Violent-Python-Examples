@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import pxssh
+from pexpect import pxssh
 
 
 def send_command(s, cmd):
